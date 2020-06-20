@@ -1,0 +1,99 @@
+body{
+    background: radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgba(251,32,86,1) 0%, rgba(135,2,35,1) 90% );
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    transition: 1s ease-in-out;
+}
+.body{
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0,.26);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    transition: 1s ease-in-out;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+header h1{
+   margin-top: 2px;
+   background-color: var(--main-bg-color);
+   box-shadow: 0 5px 6px rgba(0, 0, 0,.26);
+   padding: 5px;
+   color: #ffffff;
+   border-radius: 10px;
+   transition: 1s ease-in-out;
+    
+}
+
+.btn{
+    width: 150px;
+    background-color:#ffffff ;
+    border: 2px solid rgba(251,32,86,1);
+   margin-top: 40px;
+   margin-left: 20px;
+   color: #000000;
+   transition: 1s ease-in-out;
+
+}
+#Questions{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    pointer-events: painted;
+    transition: 1s ease-in-out;
+}
+
+.bt1{
+    margin-top: 70px;  
+    transition: 1s ease-in-out;
+}
+.btn:focus{
+    background-color: red;
+    color: #ffffff;
+    transition: 1s ease-in-out;
+}
+
+.bt2{
+  position: absolute;
+  left: 110px;
+  border: 2px solid rgba(251,32,86,1);
+}
+.bt2:focus{
+    background-color:rgb(255, 255, 255) ;
+    color: #000000;
+    
+}
+#next{
+    transition: 1s ease-in-out;
+}
+.body-1{
+    transition: 1s ease-in-out;
+    visibility: hidden;
+}
+.score{
+    position: absolute;
+    top: 25%;
+    width: 250px;
+    background-color: #ffffff;
+    height: 250px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+img{
+    height: 250px;
+    widows: 10px;
+}
+#h1{
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+}
