@@ -97,3 +97,20 @@ img{
     padding: 0;
     margin-left: 100px;
 }
+@media(max-width:500px){
+    .body{
+        width: 275px;
+        height: 450px;
+    }
+    .btn{
+        width: 90px;
+    }
+    .bt2{
+        position: absolute;
+        left: 95px;
+        border: 2px solid rgba(251,32,86,1);
+    }
+    header h1{
+        font-size: 12px;
+    }
+    }
